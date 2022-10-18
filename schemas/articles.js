@@ -14,6 +14,17 @@ export default {
       title: "Cover",
     },
     {
+      name: "lang",
+      title: "Language",
+      type: "string",
+      options: {
+        list: [
+          { value: "indonesia", title: "Indonesia" },
+          { value: "english", title: "English" },
+        ],
+      },
+    },
+    {
       name: "category",
       type: "string",
       title: "Category",
