@@ -29,4 +29,8 @@ export default {
       type: "boolean",
     },
   ],
+  initialValue: {
+    is_currently_here: false,
+    end_date: new Date().toISOString(),
+  },
 };

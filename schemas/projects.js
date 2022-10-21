@@ -30,4 +30,7 @@ export default {
       of: [{ type: "string" }],
     },
   ],
+  initialValue: {
+    is_featured: false,
+  },
 };
