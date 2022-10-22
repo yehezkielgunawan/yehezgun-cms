@@ -9,9 +9,10 @@ export default {
       title: "Project Name",
     },
     {
-      name: "project_logo",
-      type: "image",
-      title: "Project Logo",
+      name: "project_logos",
+      type: "array",
+      title: "Project Logos",
+      of: [{ type: "image" }],
     },
     {
       name: "project_desc",
