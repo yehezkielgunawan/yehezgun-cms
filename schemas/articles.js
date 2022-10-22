@@ -40,16 +40,7 @@ export default {
       name: "content",
       title: "Content",
       description: "Write your blog content here",
-      type: "array",
-      of: [
-        {
-          title: "Block",
-          type: "block",
-        },
-        {
-          type: "image",
-        },
-      ],
+      type: "markdown",
     },
   ],
 };

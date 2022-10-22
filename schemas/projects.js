@@ -29,6 +29,11 @@ export default {
       title: "Is Project featured?",
     },
     {
+      name: "project_url",
+      type: "string",
+      title: "Project URL",
+    },
+    {
       name: "tech_stacks",
       type: "array",
       title: "Tech Stacks (icon url)",
